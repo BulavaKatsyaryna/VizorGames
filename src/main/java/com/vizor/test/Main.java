@@ -1,14 +1,13 @@
 package com.vizor.test;
 
-import com.vizor.test.gallery.Grid;
 import com.vizor.test.gallery.Panel;
 
 import javax.swing.*;
-import java.awt.Dimension;
+import java.awt.*;
 
 public class Main {
-    private static final int WIDTH = 1024;
-    private static final int HEIGHT = 768;
+    private static final int WIDTH = 1500;
+    private static final int HEIGHT = 1000;
 
     public void run() {
         JFrame frame = new JFrame("DT Developer Test");
@@ -30,11 +29,11 @@ public class Main {
                 SpringLayout.NORTH, components.jTextField);
 
         frame.add(components.buttonDownload);
-        layout.putConstraint(SpringLayout.WEST, components.buttonDownload, 860,
+        layout.putConstraint(SpringLayout.WEST, components.buttonDownload, 1300,
                 SpringLayout.WEST, components.jTextField);
 
         frame.add(components.buttonNext);
-        layout.putConstraint(SpringLayout.SOUTH, components.buttonNext, 670,
+        layout.putConstraint(SpringLayout.SOUTH, components.buttonNext, 880,
                 SpringLayout.SOUTH, components.buttonSearch);
 
         frame.add(new Panel());

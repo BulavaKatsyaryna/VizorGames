@@ -1,7 +1,7 @@
-com/vizor/test/Components.java
- com.vizor.test.Components
 com/vizor/test/gallery/Grid.java
  com.vizor.test.gallery.Grid
+com/vizor/test/Components.java
+ com.vizor.test.Components
 com/vizor/test/gallery/Panel.java
  com.vizor.test.gallery.Panel
 com/vizor/test/Main.java

@@ -10,7 +10,7 @@ import java.util.Arrays;
 public class Panel extends JPanel {
 
     public Panel() {
-        setLayout(new GridLayout(5, 3, 5, 5));
+        setLayout(new GridLayout(5,3, 1, 1));
         File[] files = new File("assets")
                 .listFiles(pathname -> {
                     String name = pathname.getName().toLowerCase();
@@ -18,7 +18,7 @@ public class Panel extends JPanel {
                             name.endsWith(".png");
                 });
 
-//        setBackground(Color.LIGHT_GRAY);
+        setBackground(Color.LIGHT_GRAY);
 
         assert files != null;
         Arrays.sort(files);

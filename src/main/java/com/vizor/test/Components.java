@@ -9,4 +9,5 @@ public class Components {
     JButton buttonSearch = new JButton("Search");
     JButton buttonDownload = new JButton("Download images");
     JButton buttonNext = new JButton("Next page");
+
 }
