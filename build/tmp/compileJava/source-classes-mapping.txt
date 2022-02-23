@@ -1,0 +1,2 @@
+com/vizor/test/Main.java
+ com.vizor.test.Main
