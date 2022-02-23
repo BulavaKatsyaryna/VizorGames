@@ -1,5 +1,8 @@
 package com.vizor.test;
 
+import com.vizor.test.gallery.Grid;
+import com.vizor.test.gallery.Panel;
+
 import javax.swing.*;
 import java.awt.Dimension;
 
@@ -35,6 +38,7 @@ public class Main {
                 SpringLayout.SOUTH, components.buttonSearch);
 
         frame.add(new Panel());
+
 
         //        Разбиение на ячейки (для картинок)
         //        frame.setLayout(new GridLayout(5, 5));
