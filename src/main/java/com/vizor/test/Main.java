@@ -34,9 +34,7 @@ public class Main {
         layout.putConstraint(SpringLayout.SOUTH, components.buttonNext, 670,
                 SpringLayout.SOUTH, components.buttonSearch);
 
-        frame.add(components.panelGallery);
-        layout.putConstraint(SpringLayout.HORIZONTAL_CENTER, components.panelGallery, 500,
-                SpringLayout.WIDTH, frame);
+        frame.add(new Panel());
 
         //        Разбиение на ячейки (для картинок)
         //        frame.setLayout(new GridLayout(5, 5));
