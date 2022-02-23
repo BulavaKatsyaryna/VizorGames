@@ -1,2 +1,4 @@
 com/vizor/test/Main.java
  com.vizor.test.Main
+com/vizor/test/Components.java
+ com.vizor.test.Components
