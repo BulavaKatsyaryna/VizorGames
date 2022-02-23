@@ -12,4 +12,9 @@ public class Components {
     JButton buttonNext = new JButton("Next page");
 
     JPanel panelGallery = new JPanel(new FlowLayout(FlowLayout.CENTER));
+
+    public Components() {
+        panelGallery.setBackground(Color.LIGHT_GRAY);
+
+    }
 }

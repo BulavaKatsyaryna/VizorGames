@@ -19,10 +19,24 @@ public class Main {
         frame.setLayout(layout);
 
         frame.add(components.jTextField);
+        layout.putConstraint(SpringLayout.NORTH, components.jTextField, 0,
+                SpringLayout.NORTH, frame);
+
         frame.add(components.buttonSearch);
+        layout.putConstraint(SpringLayout.NORTH, components.buttonSearch, 25,
+                SpringLayout.NORTH, components.jTextField);
+
         frame.add(components.buttonDownload);
+        layout.putConstraint(SpringLayout.WEST, components.buttonDownload, 860,
+                SpringLayout.WEST, components.jTextField);
+
         frame.add(components.buttonNext);
+        layout.putConstraint(SpringLayout.SOUTH, components.buttonNext, 670,
+                SpringLayout.SOUTH, components.buttonSearch);
+
         frame.add(components.panelGallery);
+        layout.putConstraint(SpringLayout.HORIZONTAL_CENTER, components.panelGallery, 500,
+                SpringLayout.WIDTH, frame);
 
         //        Разбиение на ячейки (для картинок)
         //        frame.setLayout(new GridLayout(5, 5));
