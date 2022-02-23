@@ -1,7 +1,6 @@
 package com.vizor.test;
 
-import javax.swing.JFrame;
-import javax.swing.SwingUtilities;
+import javax.swing.*;
 import java.awt.Dimension;
 
 public class Main {
@@ -14,6 +13,19 @@ public class Main {
         frame.setMinimumSize(new Dimension(WIDTH, HEIGHT));
         frame.setVisible(true);
         frame.setLocationRelativeTo(null);
+
+        Components components = new Components();
+        SpringLayout layout = new SpringLayout();
+        frame.setLayout(layout);
+
+        frame.add(components.jTextField);
+        frame.add(components.buttonSearch);
+        frame.add(components.buttonDownload);
+        frame.add(components.buttonNext);
+        frame.add(components.panelGallery);
+
+        //        Разбиение на ячейки (для картинок)
+        //        frame.setLayout(new GridLayout(5, 5));
     }
 
     public static void main(String[] args) {
