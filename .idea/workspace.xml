@@ -12,14 +12,17 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/Components.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/Components.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/gallery/Grid.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/gallery/Grid.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/gallery/Panel.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/gallery/Panel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/vizor/test/Components.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vizor/test/Components.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/vizor/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vizor/test/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vizor/test/gallery/Grid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vizor/test/gallery/Grid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/vizor/test/gallery/Panel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vizor/test/gallery/Panel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +66,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -121,7 +128,8 @@
       <option name="presentableId" value="Default" />
       <updated>1645628082620</updated>
       <workItem from="1645628084246" duration="267000" />
-      <workItem from="1645628867729" duration="3603000" />
+      <workItem from="1645628867729" duration="3996000" />
+      <workItem from="1645652232893" duration="8506000" />
     </task>
     <servers />
   </component>

@@ -6,41 +6,34 @@ import javax.swing.*;
 import java.awt.*;
 
 public class Main {
-    private static final int WIDTH = 1500;
-    private static final int HEIGHT = 1000;
+    private static final int WIDTH = 1024;
+    private static final int HEIGHT = 768;
 
     public void run() {
         JFrame frame = new JFrame("DT Developer Test");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setMinimumSize(new Dimension(WIDTH, HEIGHT));
+        frame.setMaximumSize(new Dimension(WIDTH, HEIGHT));
         frame.setVisible(true);
         frame.setLocationRelativeTo(null);
 
         Components components = new Components();
-        SpringLayout layout = new SpringLayout();
+
+        BorderLayout layout = new BorderLayout();
+
         frame.setLayout(layout);
 
-        frame.add(components.jTextField);
-        layout.putConstraint(SpringLayout.NORTH, components.jTextField, 0,
-                SpringLayout.NORTH, frame);
+        frame.add(components.buttonBar, BorderLayout.NORTH);
+        components.buttonBar.setBackground(Color.GRAY);
+        components.buttonBar.add(components.jTextField);
+        components.buttonBar.add(components.buttonSearch);
+        components.buttonBar.add(components.buttonDownload);
 
-        frame.add(components.buttonSearch);
-        layout.putConstraint(SpringLayout.NORTH, components.buttonSearch, 25,
-                SpringLayout.NORTH, components.jTextField);
+        frame.add(components.buttonNext, BorderLayout.SOUTH);
 
-        frame.add(components.buttonDownload);
-        layout.putConstraint(SpringLayout.WEST, components.buttonDownload, 1300,
-                SpringLayout.WEST, components.jTextField);
+        frame.add(new Panel(BorderLayout.CENTER));
 
-        frame.add(components.buttonNext);
-        layout.putConstraint(SpringLayout.SOUTH, components.buttonNext, 880,
-                SpringLayout.SOUTH, components.buttonSearch);
-
-        frame.add(new Panel());
-
-
-        //        Разбиение на ячейки (для картинок)
-        //        frame.setLayout(new GridLayout(5, 5));
+        frame.pack();
     }
 
     public static void main(String[] args) {

@@ -10,4 +10,7 @@ public class Components {
     JButton buttonDownload = new JButton("Download images");
     JButton buttonNext = new JButton("Next page");
 
+    JPanel buttonBar = new JPanel();
+
+
 }
