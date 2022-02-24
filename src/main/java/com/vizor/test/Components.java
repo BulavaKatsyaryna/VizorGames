@@ -4,13 +4,11 @@ import javax.swing.*;
 
 public class Components {
 
-    JTextField jTextField = new JTextField(20);
+    public JTextField jTextField = new JTextField(20);
 
-    JButton buttonSearch = new JButton("Search");
-    JButton buttonDownload = new JButton("Download images");
-    JButton buttonNext = new JButton("Next page");
+    public JButton buttonSearch = new JButton("Search");
+    public JButton buttonDownload = new JButton("Download images");
+    public JButton buttonNext = new JButton("Onwards");
 
     JPanel buttonBar = new JPanel();
-
-
 }

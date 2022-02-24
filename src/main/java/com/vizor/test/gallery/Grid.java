@@ -5,10 +5,6 @@ import java.awt.*;
 
 public class Grid {
 
-    public static void main(String[] args) {
-        new Grid();
-    }
-
     public Grid() {
         EventQueue.invokeLater(() -> {
             try {

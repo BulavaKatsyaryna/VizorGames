@@ -5,32 +5,41 @@ import javax.swing.*;
 import java.awt.*;
 import java.io.File;
 import java.io.IOException;
-import java.util.Arrays;
 
 public class Panel extends JPanel {
 
-    public Panel(String center) {
-        setLayout(new GridLayout(5, 3, 1, 1));
-        File[] files = new File("assets")
+    File[] files;
+
+    public Panel() {
+        setLayout(new GridLayout(10, 2, 1, 1));
+        files = new File("assets")
                 .listFiles(pathname -> {
                     String name = pathname.getName().toLowerCase();
                     return pathname.isFile() &&
                             name.endsWith(".png");
                 });
 
-        setBackground(Color.LIGHT_GRAY);
+        addingFiles();
 
-        assert files != null;
-        Arrays.sort(files);
-        int count = 0;
-        while (count < 15 && count < files.length) {
-            try {
-                System.out.println(count + "; " + files[count]);
-                add(new JLabel(new ImageIcon(ImageIO.read(files[count]))));
-            } catch (IOException ex) {
-                ex.printStackTrace();
+        setBackground(Color.LIGHT_GRAY);
+    }
+
+    int count1 = 0;
+
+    public void addingFiles() {
+
+        int count2 = count1 + 20;
+        if (files != null) {
+            while (count1 < count2 && count1 < files.length) {
+                try {
+                    System.out.println(count1 + "; " + files[count1]);
+                    add(new JLabel(new ImageIcon(ImageIO.read(files[count1]))));
+                } catch (IOException ex) {
+                    ex.printStackTrace();
+                }
+                count1++;
             }
-            count++;
         }
     }
 }
+
