@@ -1,6 +1,6 @@
 package com.vizor.test;
 
-import com.vizor.test.gallery.Panel;
+import com.vizor.test.gallery.ListImages;
 import com.vizor.test.listeners.ButtonNextListener;
 import com.vizor.test.listeners.ButtonSearchListener;
 
@@ -32,7 +32,7 @@ public class Main {
 
         frame.add(components.buttonNext, BorderLayout.SOUTH);
 
-        frame.add(new Panel());
+        frame.add(new ListImages());
 
         components.buttonNext.addActionListener(new ButtonNextListener());
         components.buttonSearch.addActionListener(new ButtonSearchListener());

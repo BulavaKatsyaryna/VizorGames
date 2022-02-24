@@ -1,7 +1,7 @@
 package com.vizor.test.listeners;
 
 import com.vizor.test.Components;
-import com.vizor.test.gallery.Panel;
+import com.vizor.test.gallery.ListImages;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -9,7 +9,7 @@ import java.awt.event.ActionListener;
 public class ButtonSearchListener implements ActionListener {
 
     Components components = new Components();
-    Panel panel = new Panel();
+    ListImages listImages = new ListImages();
 
     @Override
     public void actionPerformed(ActionEvent event) {
@@ -17,6 +17,6 @@ public class ButtonSearchListener implements ActionListener {
         String searchText = components.jTextField.getText();
         System.out.println("Search by name: " + searchText);
 
-        panel.searchFiles();
+        listImages.searchFiles();
     }
 }

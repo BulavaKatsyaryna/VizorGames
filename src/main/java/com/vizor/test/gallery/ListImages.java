@@ -6,12 +6,12 @@ import java.awt.*;
 import java.io.File;
 import java.io.IOException;
 
-public class Panel extends JPanel {
+public class ListImages extends JList {
 
     File[] files;
 
-    public Panel() {
-        setLayout(new GridLayout(10, 2, 1, 1));
+    public ListImages() {
+        setLayout(new GridLayout(6, 4, 5, 5));
         files = new File("assets")
                 .listFiles(pathname -> {
                     String name = pathname.getName().toLowerCase();
@@ -28,7 +28,7 @@ public class Panel extends JPanel {
 
     public void addingFiles() {
 
-        int count2 = count1 + 20;
+        int count2 = count1 + 24;
         if (files != null) {
             while (count1 < count2 && count1 < files.length) {
                 try {
