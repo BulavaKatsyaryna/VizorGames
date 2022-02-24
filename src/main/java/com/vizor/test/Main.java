@@ -13,7 +13,6 @@ public class Main {
 
     Components components = new Components();
     BorderLayout layout = new BorderLayout();
-    ButtonNextListener buttonNextListener = new ButtonNextListener();
 
     public void run() {
         JFrame frame = new JFrame("DT Developer Test");
@@ -22,8 +21,8 @@ public class Main {
         frame.setMaximumSize(new Dimension(WIDTH, HEIGHT));
         frame.setVisible(true);
         frame.setLocationRelativeTo(null);
-
         frame.setLayout(layout);
+        frame.pack();
 
         frame.add(components.buttonBar, BorderLayout.NORTH);
         components.buttonBar.setBackground(Color.GRAY);
@@ -35,11 +34,8 @@ public class Main {
 
         frame.add(new Panel());
 
-        frame.pack();
-
         components.buttonNext.addActionListener(new ButtonNextListener());
         components.buttonSearch.addActionListener(new ButtonSearchListener());
-
     }
 
     public static void main(String[] args) {

@@ -13,15 +13,9 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/Components.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/Components.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/gallery/Grid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/gallery/Panel.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/gallery/Panel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vizor/test/Components.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vizor/test/Components.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/vizor/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vizor/test/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vizor/test/gallery/Grid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vizor/test/gallery/Grid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vizor/test/gallery/Panel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vizor/test/gallery/Panel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vizor/test/listeners/ButtonSearchListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vizor/test/listeners/ButtonSearchListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +121,7 @@
       <updated>1645628082620</updated>
       <workItem from="1645628084246" duration="267000" />
       <workItem from="1645628867729" duration="3996000" />
-      <workItem from="1645652232893" duration="14048000" />
+      <workItem from="1645652232893" duration="15478000" />
     </task>
     <servers />
   </component>

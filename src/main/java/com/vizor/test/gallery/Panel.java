@@ -41,5 +41,9 @@ public class Panel extends JPanel {
             }
         }
     }
+
+    public void searchFiles() {
+
+    }
 }
 
