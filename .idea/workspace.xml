@@ -12,22 +12,10 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/Components.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/Components.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/gallery/Grid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/gallery/ListImages.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/listeners/ButtonNextListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/listeners/ButtonNextListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/listeners/ButtonSearchListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/listeners/ButtonSearchListener.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vizor/test/Components.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vizor/test/Components.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vizor/test/ListImages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vizor/test/ListImages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vizor/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vizor/test/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vizor/test/listeners/ButtonNextListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vizor/test/listeners/ButtonNextListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vizor/test/listeners/ButtonSearchListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vizor/test/listeners/ButtonSearchListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vizor/test/listeners/ButtonDownloadListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vizor/test/listeners/ButtonDownloadListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +126,7 @@
       <workItem from="1645628084246" duration="267000" />
       <workItem from="1645628867729" duration="3996000" />
       <workItem from="1645652232893" duration="16024000" />
-      <workItem from="1645734785474" duration="12718000" />
+      <workItem from="1645734785474" duration="14449000" />
     </task>
     <servers />
   </component>

@@ -6,7 +6,8 @@ com/vizor/test/listeners/ButtonNextListener.java
  com.vizor.test.listeners.ButtonNextListener
 com/vizor/test/ListImages.java
  com.vizor.test.ListImages
-com/vizor/test/ButtonDownloadListener.java
- com.vizor.test.ButtonDownloadListener
 com/vizor/test/Main.java
  com.vizor.test.Main
+com/vizor/test/listeners/ButtonDownloadListener.java
+ com.vizor.test.listeners.ButtonDownloadListener
+ com.vizor.test.listeners.ButtonDownloadListener$1
