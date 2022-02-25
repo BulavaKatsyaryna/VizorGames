@@ -20,17 +20,17 @@ public class ButtonDownloadListener extends Component implements ActionListener 
             JOptionPane.showMessageDialog(ButtonDownloadListener.this,
                     jFileChooser.getSelectedFile());
 
-        save.addActionListener(new ActionListener() {
-
-            @Override
-            public void actionPerformed(ActionEvent actionEvent) {
-                jFileChooser.setDialogTitle("Saving a file");
-                jFileChooser.setFileSelectionMode(
-                        JFileChooser.FILES_ONLY);
-                int res = jFileChooser.showSaveDialog(ButtonDownloadListener.this);
-                if (res == JFileChooser.APPROVE_OPTION)
-                    JOptionPane.showMessageDialog(ButtonDownloadListener.this, "File saved");
-            }
-        });
+//        save.addActionListener(new ActionListener() {
+//
+//            @Override
+//            public void actionPerformed(ActionEvent actionEvent) {
+//                jFileChooser.setDialogTitle("Saving a file");
+//                jFileChooser.setFileSelectionMode(
+//                        JFileChooser.FILES_ONLY);
+//                int res = jFileChooser.showSaveDialog(ButtonDownloadListener.this);
+//                if (res == JFileChooser.APPROVE_OPTION)
+//                    JOptionPane.showMessageDialog(ButtonDownloadListener.this, "File saved");
+//            }
+//        });
     }
 }

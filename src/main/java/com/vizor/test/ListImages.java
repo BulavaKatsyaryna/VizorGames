@@ -29,7 +29,6 @@ public class ListImages extends JList {
     int count1 = 0;
 
     public void addingFiles() {
-
         int count2 = count1 + 24;
         if (files != null) {
             while (count1 < count2 && count1 < files.length) {
