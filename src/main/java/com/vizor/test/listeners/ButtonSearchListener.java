@@ -1,7 +1,7 @@
 package com.vizor.test.listeners;
 
 import com.vizor.test.Components;
-import com.vizor.test.ListImages;
+import com.vizor.test.workingWithImages.ListImages;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

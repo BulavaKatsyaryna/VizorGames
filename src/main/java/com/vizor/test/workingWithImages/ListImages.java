@@ -1,4 +1,6 @@
-package com.vizor.test;
+package com.vizor.test.workingWithImages;
+
+import com.vizor.test.Components;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;

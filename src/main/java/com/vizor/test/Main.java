@@ -2,7 +2,9 @@ package com.vizor.test;
 
 import com.vizor.test.listeners.ButtonDownloadListener;
 import com.vizor.test.listeners.ButtonNextListener;
+import com.vizor.test.listeners.ButtonSaveListener;
 import com.vizor.test.listeners.ButtonSearchListener;
+import com.vizor.test.workingWithImages.ListImages;
 
 import javax.swing.*;
 import java.awt.*;
@@ -36,6 +38,7 @@ public class Main {
         components.buttonNext.addActionListener(new ButtonNextListener());
         components.buttonSearch.addActionListener(new ButtonSearchListener());
         components.buttonDownload.addActionListener(new ButtonDownloadListener());
+        components.buttonSave.addActionListener(new ButtonSaveListener());
         frame.pack();
     }
 
