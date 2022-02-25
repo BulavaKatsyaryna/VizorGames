@@ -10,7 +10,6 @@ public class ButtonSearchListener implements ActionListener {
 
     Components components = new Components();
     ListImages listImages = new ListImages();
-    public String searchText = "";
 
     @Override
     public void actionPerformed(ActionEvent event) {

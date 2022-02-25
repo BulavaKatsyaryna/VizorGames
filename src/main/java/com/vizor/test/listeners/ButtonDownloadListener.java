@@ -10,39 +10,24 @@ import java.awt.event.ActionListener;
 public class ButtonDownloadListener extends Component implements ActionListener {
 
     JFileChooser jFileChooser = new JFileChooser();
-//    JButton save = new JButton("Save");
+    JButton save = new JButton("Save");
 
     @Override
     public void actionPerformed(ActionEvent actionEvent) {
         jFileChooser.setDialogTitle("Choose an image");
         jFileChooser.addChoosableFileFilter(new ImageFileFilter());
         jFileChooser.setAcceptAllFileFilterUsed(false);
-
         jFileChooser.setFileSelectionMode(
                 JFileChooser.DIRECTORIES_ONLY);
-        int res = jFileChooser.showOpenDialog(ButtonDownloadListener.this);
-        if (res == JFileChooser.APPROVE_OPTION)
-            JOptionPane.showMessageDialog(ButtonDownloadListener.this,
-                    jFileChooser.getSelectedFile());
+        jFileChooser.showOpenDialog(ButtonDownloadListener.this);
 
-
-
-
-
+        save.addActionListener(actionEvent1 -> {
+            jFileChooser.setDialogTitle("Saving a file");
+            jFileChooser.setFileSelectionMode(
+                    JFileChooser.FILES_ONLY);
+            int res1 = jFileChooser.showSaveDialog(ButtonDownloadListener.this);
+            if (res1 == JFileChooser.APPROVE_OPTION)
+                JOptionPane.showMessageDialog(ButtonDownloadListener.this, "File saved");
+        });
     }
 }
-
-
-
-//        save.addActionListener(new ActionListener() {
-//
-//            @Override
-//            public void actionPerformed(ActionEvent actionEvent) {
-//                jFileChooser.setDialogTitle("Saving a file");
-//                jFileChooser.setFileSelectionMode(
-//                        JFileChooser.FILES_ONLY);
-//                int res = jFileChooser.showSaveDialog(ButtonDownloadListener.this);
-//                if (res == JFileChooser.APPROVE_OPTION)
-//                    JOptionPane.showMessageDialog(ButtonDownloadListener.this, "File saved");
-//            }
-//        });

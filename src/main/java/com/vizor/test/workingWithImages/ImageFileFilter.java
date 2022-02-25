@@ -12,7 +12,7 @@ public class ImageFileFilter extends FileFilter {
         }
 
         String name = file.getName().toLowerCase();
-        return (name.endsWith(".jpg") || name.endsWith(".png") );
+        return (name.endsWith(".jpg") || name.endsWith(".png"));
     }
 
     @Override
