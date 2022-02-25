@@ -5,10 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb085596-a6f3-47a4-bf5c-54b9b6540162" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/Components.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/Components.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/gallery/Grid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/gallery/ListImages.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/listeners/ButtonNextListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/listeners/ButtonNextListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/listeners/ButtonSearchListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/listeners/ButtonSearchListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/vizor/test/Components.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vizor/test/Components.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vizor/test/gallery/Panel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vizor/test/gallery/Panel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vizor/test/ListImages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vizor/test/ListImages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vizor/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vizor/test/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vizor/test/listeners/ButtonNextListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vizor/test/listeners/ButtonNextListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vizor/test/listeners/ButtonSearchListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vizor/test/listeners/ButtonSearchListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,14 +77,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Java Guru/HomeWork/VizorGames" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.vizor.test" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Programming\interviews\VizorGames-release\dt-developer-test-ebulova" />
     </key>
@@ -76,7 +99,7 @@
       <module name="dt-developer-test.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.vizor.test.gallery.*" />
+          <option name="PATTERN" value="com.vizor.test.listeners.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,7 +112,7 @@
       <module name="dt-developer-test.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.vizor.test.gallery.*" />
+          <option name="PATTERN" value="com.vizor.test.listeners.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,7 +138,7 @@
       <workItem from="1645628084246" duration="267000" />
       <workItem from="1645628867729" duration="3996000" />
       <workItem from="1645652232893" duration="16024000" />
-      <workItem from="1645734785474" duration="3214000" />
+      <workItem from="1645734785474" duration="12718000" />
     </task>
     <servers />
   </component>

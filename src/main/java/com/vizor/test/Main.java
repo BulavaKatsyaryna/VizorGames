@@ -1,6 +1,6 @@
 package com.vizor.test;
 
-import com.vizor.test.gallery.ListImages;
+import com.vizor.test.listeners.ButtonDownloadListener;
 import com.vizor.test.listeners.ButtonNextListener;
 import com.vizor.test.listeners.ButtonSearchListener;
 
@@ -22,7 +22,6 @@ public class Main {
         frame.setVisible(true);
         frame.setLocationRelativeTo(null);
         frame.setLayout(layout);
-        frame.pack();
 
         frame.add(components.buttonBar, BorderLayout.NORTH);
         components.buttonBar.setBackground(Color.GRAY);
@@ -36,6 +35,8 @@ public class Main {
 
         components.buttonNext.addActionListener(new ButtonNextListener());
         components.buttonSearch.addActionListener(new ButtonSearchListener());
+        components.buttonDownload.addActionListener(new ButtonDownloadListener());
+        frame.pack();
     }
 
     public static void main(String[] args) {

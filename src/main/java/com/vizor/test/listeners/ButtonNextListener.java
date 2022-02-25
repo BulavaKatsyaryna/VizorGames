@@ -1,6 +1,6 @@
 package com.vizor.test.listeners;
 
-import com.vizor.test.gallery.ListImages;
+import com.vizor.test.ListImages;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
