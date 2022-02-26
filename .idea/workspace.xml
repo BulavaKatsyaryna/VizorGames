@@ -13,20 +13,13 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/Components.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/Components.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/ListImages.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/listeners/ButtonDownloadListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/listeners/ButtonDownloadListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/listeners/ButtonNextListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/listeners/ButtonNextListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/listeners/ButtonSaveListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/listeners/ButtonSearchListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/listeners/ButtonSearchListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/listeners/ImageFileFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/workingWithImages/ImageFileFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/workingWithImages/ImageFileFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/workingWithImages/ListImages.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/vizor/test/workingWithImages/ListImages.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vizor/test/Components.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vizor/test/Components.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/vizor/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vizor/test/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/vizor/test/listeners/ButtonDownloadListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vizor/test/listeners/ButtonDownloadListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vizor/test/listeners/ButtonSaveListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vizor/test/listeners/ButtonSearchListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vizor/test/listeners/ButtonSearchListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/vizor/test/workingWithImages/ImageFileFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vizor/test/workingWithImages/ImageFileFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/vizor/test/workingWithImages/ListImages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vizor/test/workingWithImages/ListImages.java" afterDir="false" />
     </list>
@@ -61,6 +54,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="25W1ZEDpWdo0nxVDQ3ThUd6iFtq" />
   <component name="ProjectLevelVcsManager">
@@ -140,7 +141,7 @@
       <workItem from="1645628867729" duration="3996000" />
       <workItem from="1645652232893" duration="16024000" />
       <workItem from="1645734785474" duration="18846000" />
-      <workItem from="1645820445390" duration="5644000" />
+      <workItem from="1645820445390" duration="12981000" />
     </task>
     <servers />
   </component>

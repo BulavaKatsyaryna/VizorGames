@@ -1,9 +1,9 @@
-com/vizor/test/listeners/ButtonDownloadListener.java
- com.vizor.test.listeners.ButtonDownloadListener
-com/vizor/test/workingWithImages/ImageFileFilter.java
- com.vizor.test.workingWithImages.ImageFileFilter
 com/vizor/test/Components.java
  com.vizor.test.Components
+com/vizor/test/workingWithImages/ImageFileFilter.java
+ com.vizor.test.workingWithImages.ImageFileFilter
+com/vizor/test/listeners/ButtonDownloadListener.java
+ com.vizor.test.listeners.ButtonDownloadListener
 com/vizor/test/listeners/ButtonSearchListener.java
  com.vizor.test.listeners.ButtonSearchListener
 com/vizor/test/listeners/ButtonNextListener.java

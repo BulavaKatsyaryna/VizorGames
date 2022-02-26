@@ -1,6 +1,7 @@
 package com.vizor.test.listeners;
 
 import com.vizor.test.workingWithImages.ImageFileFilter;
+import com.vizor.test.workingWithImages.ListImages;
 
 import javax.swing.*;
 import java.awt.*;

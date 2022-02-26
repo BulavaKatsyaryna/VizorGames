@@ -37,6 +37,7 @@ public class Main {
         components.buttonNext.addActionListener(new ButtonNextListener());
         components.buttonSearch.addActionListener(new ButtonSearchListener());
         components.buttonDownload.addActionListener(new ButtonDownloadListener());
+
         frame.pack();
     }
 

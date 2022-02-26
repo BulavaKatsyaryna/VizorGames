@@ -42,13 +42,14 @@ public class ListImages extends JList {
                 }
                 count1++;
             }
-
         }
     }
 
     public void searchFiles() {
         String searchText = components.jTextField.getText();
-        Arrays.stream(files).filter(files -> Boolean.parseBoolean(components.jTextField.getText())).forEach(System.out::println);
+        Arrays.stream(files)
+            .filter(f -> Boolean.parseBoolean(components.jTextField.getText()))
+            .forEach(System.out::println);
 
         JOptionPane.showMessageDialog(null, "Image " + searchText);
     }

@@ -10,7 +10,6 @@ public class ImageFileFilter extends FileFilter {
         if (file.isDirectory()) {
             return true;
         }
-
         String name = file.getName().toLowerCase();
         return (name.endsWith(".jpg") || name.endsWith(".png"));
     }
